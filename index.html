@@ -3,10 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Member Rorm</title>
+    <title>Membership Application Form, LCM</title>
     <link rel="stylesheet" href="lcmform.css">
 </head>
-<body>
     
+    
+<body>
+
+    <h2> <u>LOVE CENTER MINISTRIES INC. <br>CENTRAL CHURCH <br>DIVINE TOWN, OLD ROAD, CONGO TOWN</h2></u> <hr> <br>
+    
+    <div id="form-d1"><br>
+    <h3>Membership Application Form</h3>
+    
+    <form>
+        
+        <label class="input_label">Application Date:</label>
+        <input class="input_all" type="date" name="application_date" required><br><br>
+        
+        <label class="input_label">Applicant Name:</label>
+        <input class="input_all" type="text" name="last_name" placeholder="Last Name" required>
+        <input class="input_all" type="text" name="first_name" placeholder="First Name" required>
+        <input class="input_all" type="text" name="middle_name" placeholder="Middle Name"><br><br>
+        
+        <label class="input_label">Date of Birth:</label>
+        <input class="input_all" type="date" name="dob" required><br><br>
+
+        <label class="input_label">Place of Birth:</label>
+        <input class="input_all" type="text" name="birth_place" required><br><br>
+
+        <label class="input_label">Tribe:</label>
+        <input class="input_all" type="text" name="tribe"><br><br>
+
+        <label class="input_label">County/Country of Origin:</label>
+        <input class="input_all" type="text" name="county_country"><br><br>
+
+        <label class="input_label">Father's Name:</label>
+        <input class="input_all" type="text" name="father_name"><br><br>
+
+        <label class="input_label">Mother's Name:</label>
+        <input class="input_all" type="text" name="mother_name"><br><br>
+
+        <label class="input_label">Your Present Address:</label>
+        <textarea class="input_all" name="present_address" rows="2" required></textarea><br><br>
+
+        <label class="input_label">Phone Number:</label>
+        <input class="input_all" type="tel" name="phone_number"><br><br>
+
+        <label class="input_label">Have you been born again according to St. 3:3-18?</label>
+        <select>
+            <option class="input_all"></option>
+            <option class="input_all" value="NO">No</option>
+            <option value="Yes">Yes</option>
+        </select>
+        <input class="input_all" type="text" name="born_again_date" placeholder="When?"><br><br>
+
+        <label class="input_label">Have you been baptized by emergement?</label>
+        <select>
+            <option class="input_all"></option>
+            <option class="input_all" value="yes">Yes</option>
+            <option class="input_all" value="no">No</option>
+        </select>
+        <input class="input_all" type="text" placeholder="Which Church?">
+        <input class="input_all" type="text" placeholder="Church Address">
+        <textarea rows="2" placeholder="Why did you leave?"></textarea><br><br>
+
+        <label class="input_label">Name & Address of Former Church (if any):</label>
+        <textarea class="input_all" rows="1"></textarea><br><br>
+
+        <label class="input_label">If accepted, will you faithfully live up to the policies and regulations governing the church?</label>
+        <select>
+            <option class="input_all"></option>
+            <option class="input_all" value="yes">Yes</option>
+            <option class="input_all" value="no">No</option>
+        </select><br><br>
+
+        <label class="input_label">Would you be faithful attending services and activities of the church?</label>
+        <select>
+            <option class="input_all"></option>
+            <option class="input_all" value="yes">Yes</option>
+            <option class="input_all" value="no">No</option>
+        </select><br><br>
+
+        <label class="input_label">Do you promise to love, cherish, obey, and be concerned for members of the church?</label>
+        <select>
+            <option class="input_all"></option>
+            <option class="input_all" value="yes">Yes</option>
+            <option class="input_all" value="no">No</option>
+        </select><br><br>
+
+        <label class="input_label">Do you faithfully promise to uplift the church during your time of prayer?</label>
+        <select>
+            <option class="input_all"></option>
+            <option class="input_all" value="yes">Yes</option>
+            <option class="input_all" value="no">No</option>
+        </select><br><br>
+
+        <label class="input_label">Why did you decide to become a member of LCM?</label>
+        <textarea class="input_all" rows="2" required></textarea><br><br>
+
+        <label class="input_label">Which department would you desire to be part of? (Optional)</label>
+        <input class="input_all" type="text"><br><br>
+   
+        <label class="input_label">DECLARATION:</label> <br><br>
+  
+   <p> I, the undersigned, declare that to the best of my knowledge, 
+    in my sound mind and judgment,without any pressure, the information 
+    above is true without any form of deception; therefore, anything stated 
+    herein that shall be found to be contrary shall be subject to disciplinary 
+    action by the Holy Spirit and the leadership of the church.  </p>
+
+        <!--Confirmation of declaration-->
+        <label>
+            <input type="checkbox">I agree
+        </label>
+
+ 
+        <br><br>
+        <button type="submit">Submit Application</button>
+    </form>
+</div>
 </body>
 </html>
+
